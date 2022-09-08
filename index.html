@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expense Tracker</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="insideContainer">
+        <div class="headerDetails">
+          <h1>Expense Tracker</h1>
+          <p class="amountDisplay">₹ 200</p>
+        </div>
+        <div class="transactions">
+          <h2>Transactions</h2>
+          <div class="displayTransaction">
+            <!-- <div class="transaction">
+              <h2>Example</h2>
+              <div class="editDelete">
+                    <span class="green">&#x20b9 200</span>
+                <span class="edit"><i class="fa-solid fa-pen-to-square"></i></span>
+                <span class="delete"><i class="fa-solid fa-trash"></i></span>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="expenseEntry">
+          <h3>Add Expense</h3>
+          <div class="inputDetails">
+            <input type="text" id="inputText" placeholder="Mercedes-Benz" />
+            <input
+              min="1"
+              type="number"
+              id="inputAmount"
+              placeholder="1.16 Crore"
+            />
+          </div>
+          <div class="buttons">
+            <div class="earning btn">
+              <h4 class="earning earningAmount">₹ 0</h4>
+              <p class="earning">Earning</p>
+            </div>
+            <div class="expense btn">
+              <h4 class="expense expenseAmount">₹ 0</h4>
+              <p class="expense">Expense</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    <!-- <script src="main2.js"></script> -->
+  </body>
+</html>
